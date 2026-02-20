@@ -17,6 +17,7 @@ for i=1:length(LIST)
     end
 end
 
+%作るコードブックごとに値を変更して利用しました。
 PosList=list(201:300);   
 NegList=list(301:400);
 Training={PosList{:} NegList{:}};
